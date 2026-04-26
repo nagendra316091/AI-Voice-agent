@@ -1,0 +1,18 @@
+vosk>=0.3.45
+sounddevice>=0.4.6
+pyttsx3>=2.90
+PyQt6>=6.5
+pyautogui>=0.9.54
+Pillow>=10.0
+psutil>=5.9
+# STT (Whisper) and LLM intent fallback
+faster-whisper>=1.0
+numpy>=1.26
+groq>=0.11
+python-dotenv>=1.0
+# Windows-only extras (no-ops on other OSes)
+pycaw>=20230407 ; platform_system == "Windows"
+comtypes>=1.2 ; platform_system == "Windows"
+pywin32>=306 ; platform_system == "Windows"
+# dev
+pytest>=7.0
